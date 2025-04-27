@@ -1,0 +1,15 @@
+REVISTA,r2,Tecnología Hoy,45
+REVISTA,r3,Ingeniería Moderna,30
+REVISTA,r4,Computación y Futuro,8
+REVISTA,r5,Redes Globales,60
+LIBRO,l1,Java desde cero,Autor desconocido
+LIBRO,l2,POO en Java,Alan Turing
+LIBRO,l3,Estructuras de Datos,Robert Lafore
+LIBRO,l4,Fundamentos de Programación,Bjarne Stroustrup
+LIBRO,l5,Algoritmos Avanzados,Donald Knuth
+DVD,d1,Matrix,120
+DVD,d2,Inception,148
+DVD,d3,El Origen de los Datos,90
+DVD,d4,Tron Legacy,125
+DVD,d5,Historia de la Informática,85
+REVISTA,r1,Revista Ciencia,12
