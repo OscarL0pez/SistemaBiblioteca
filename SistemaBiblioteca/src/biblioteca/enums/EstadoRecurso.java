@@ -1,7 +1,7 @@
 package biblioteca.enums;
 
 /**
- *  Enumeracion que representa los posibles estados de un recurso de biblioteca.
+ *  Enum que representa los posibles estados de un recurso de biblioteca.
  */
 public enum EstadoRecurso {
 	DISPONIBLE, PRESTADO, RESERVADO

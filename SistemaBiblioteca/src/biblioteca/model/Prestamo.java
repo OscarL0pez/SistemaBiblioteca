@@ -1,7 +1,11 @@
 package biblioteca.model;
 
 import java.time.LocalDate;
-
+/**
+ * Clase que representa un préstamo de un recurso de la biblioteca a un usuario.
+ * Almacena la información relacionada con el préstamo como el recurso, el usuario,
+ * la fecha en que se realizó y si ya fue devuelto.
+ */
 public class Prestamo {
     private RecursoBiblioteca recurso;
     private Usuario usuario;
@@ -34,7 +38,12 @@ public class Prestamo {
     public void marcarComoDevuelto() {
         this.devuelto = true;
     }
-
+    /**
+     * Genera un resumen textual del préstamo.
+     * Incluye información del recurso, usuario, fecha y estado del préstamo.
+     *
+     * @return Cadena con el resumen del préstamo formateado para mostrar
+     */
     public String resumen() {
         return recurso.getTitulo() + " prestado a " + usuario.getNombre()
              + " el " + fechaPrestamo + (devuelto ? " ✅ (Devuelto)" : " ⏳ (Pendiente)");
